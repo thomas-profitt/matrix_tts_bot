@@ -1,0 +1,6 @@
+---
+name: Charles
+
+homeserver_url: https://matrix.org
+username: charles-bot
+password: Your super-duper secret password

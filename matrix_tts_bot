@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3 matrix_tts_bot.py
