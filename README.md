@@ -16,3 +16,4 @@ When the bot is told to "say" a phrase, it generates a temporary WAV file and up
 
 ## Known Issues and Limitations
 - The bot is not compatible with E2E-encrypted rooms. It can't read commands in E2E encrypted rooms, uploads unencrypted audio files, and sends the events unencrypted.
+- Bridged IRC users don't see a link to the file, but the filename as a string. It works for images posted via Riot web/android. I don't yet know enough to say whether the bot's file-posting events are missing data required to fall back properly, or if the IRC bridge doesn't give audio files the same linkification treatment as images.
